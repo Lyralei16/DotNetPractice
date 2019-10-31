@@ -9,3 +9,14 @@ D:\Little space\asp.net_example\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.
 D:\Little space\asp.net_example\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.AssemblyInfo.cs
 D:\Little space\asp.net_example\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.dll
 D:\Little space\asp.net_example\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.pdb
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\bin\Debug\netcoreapp2.2\TEST_ConsApp.deps.json
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\bin\Debug\netcoreapp2.2\TEST_ConsApp.runtimeconfig.json
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\bin\Debug\netcoreapp2.2\TEST_ConsApp.runtimeconfig.dev.json
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\bin\Debug\netcoreapp2.2\TEST_ConsApp.dll
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\bin\Debug\netcoreapp2.2\TEST_ConsApp.pdb
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.csprojAssemblyReference.cache
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.csproj.CoreCompileInputs.cache
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.AssemblyInfoInputs.cache
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.AssemblyInfo.cs
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.dll
+D:\Little space\asp.net_example\DotNetPractice\TEST_ConsApp\TEST_ConsApp\obj\Debug\netcoreapp2.2\TEST_ConsApp.pdb

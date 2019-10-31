@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Little space\\asp.net_example\\TEST_ConsApp\\TEST_ConsApp\\TEST_ConsApp.csproj",
+      "projectUniqueName": "D:\\Little space\\asp.net_example\\DotNetPractice\\TEST_ConsApp\\TEST_ConsApp\\TEST_ConsApp.csproj",
       "projectName": "TEST_ConsApp",
-      "projectPath": "D:\\Little space\\asp.net_example\\TEST_ConsApp\\TEST_ConsApp\\TEST_ConsApp.csproj",
+      "projectPath": "D:\\Little space\\asp.net_example\\DotNetPractice\\TEST_ConsApp\\TEST_ConsApp\\TEST_ConsApp.csproj",
       "packagesPath": "C:\\Users\\Adelina\\.nuget\\packages\\",
-      "outputPath": "D:\\Little space\\asp.net_example\\TEST_ConsApp\\TEST_ConsApp\\obj\\",
+      "outputPath": "D:\\Little space\\asp.net_example\\DotNetPractice\\TEST_ConsApp\\TEST_ConsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
