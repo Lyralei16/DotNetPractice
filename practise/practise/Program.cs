@@ -1,49 +1,51 @@
-﻿using System.CodeDom.Compiler;
+﻿using System;
 using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-
 class Solution
 {
-
-    // Complete the sockMerchant function below.
-    static int sockMerchant(int n, int[] ar)
+    static void Main(String[] args)
     {
-        int sockpairs = 0;
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
+        int arCount = Convert.ToInt32(Console.ReadLine());
+        int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
+        //Array.sort(ar);
 
-        foreach (int item in ar)
+
+
+        Console.WriteLine(mean(ar, arCount));
+
+    }
+
+    static float mean(int[] ar, int arCount)
+    {
+
+        int sum = 0;
+        for (int i = 0; i < arCount; i++)
         {
-            //Console.log
-            System.Diagnostics.Debug.WriteLine(topTitle + " " + subTitle);
+            sum = sum + ar[i];
 
         }
-
-        return sockpairs;
-
+        float result = sum / arCount;
+        return result;
     }
-
-    static void Main(string[] args)
+    static float median(int[] ar, int arCount)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        
+        int i, j;
+        for (j = arCount - 1; j > 0; j--)
+        {
+            for (i = 0; i < j; i++)
+            {
+                if (ar[i] > ar[i + 1])
+                {
+                    exchange(ar, i, i + 1);
+                }
+            }
+        }
+        int result = 0;
+        return result; 
 
-        int n = Convert.ToInt32(Console.ReadLine());
-
-        int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
-        ;
-        int result = sockMerchant(n, ar);
-
-        textWriter.WriteLine(result);
-
-        textWriter.Flush();
-        textWriter.Close();
     }
 }
+
+
