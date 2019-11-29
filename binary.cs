@@ -20,6 +20,7 @@ class Solution {
         int n = Convert.ToInt32(Console.ReadLine());
         int[] binary = new int[10];
         int i;
+       // int c;
 
          for(i=0; n>0; i++)      
         {      
@@ -27,12 +28,33 @@ class Solution {
          n= n/2;    
         }  
 
-       Console.Write("Binary of the given number= ");      
-       for(i=i-1 ;i>=0 ;i--)      
-       {      
-        Console.Write(binary[i]);      
-       }                 
+      // Console.Write("Binary of the given number= ");     
 
+         int count = 0;
+         int t = 0;
+       for(i=i-1 ;i>=0 ;i--)      
+       {
+
+       if (binary[i] == 1){
+          count++;
+          if ( count >= t){
+              t = count;
+          }
+
+       } else{
+         count = 0;
+       }
+          
+           
+           
+       // Console.WriteLine(binary[i]);      
+       }
+       Console.WriteLine(t);      
+       
+
+
+
+        
      /*    if (n != 0){
             int part = n % 2;
             //Console.WriteLine(binaryCount(n));
