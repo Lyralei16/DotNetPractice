@@ -13,28 +13,38 @@ using System.Text;
 using System;
 
 class Solution {
-/*  Sample Input
-
-    1 1 1 0 0 0
-    0 1 0 0 0 0
-    1 1 1 0 0 0
-    0 0 2 4 4 0
-    0 0 0 2 0 0
-    0 0 1 2 4 0 */
 
 
 
     static void Main(string[] args) {
         int[][] arr = new int[6][];
-        int[,] hourGlass = new int[3][];
-        int sum = 0;
+       // int sum = 0;
 
 
         for (int i = 0; i < 6; i++) {
             arr[i] = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
            
-        } 
-       
+           
+        }
 
+    }
+     static int[,] arrHG(int[][] arr){
+
+        int[,] hourGlass = new int[3, 3];
+
+        for (int i = 0; i < 3; i++){
+
+            for (int j = 0; j <3; j++){
+                if( i == 0 && j == 1 || i == 2 && j == 1){
+                    hourGlass[i][j] = " ";
+                } else
+                {
+                    hourGlass[i][j] = arr[i][j];
+                }
+               
+            }
+        }
+
+        return hourGlass;
     }
 }
